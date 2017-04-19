@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--
 This file is used by the publish/package process of your Web project. You can customize the behavior of this process
@@ -9,4 +10,17 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA0DYIxt8Z5ECKx1M+9iyeygAAAAACAAAAAAADZgAAwAAAABAAAABlZugfh7MW4+kIqAW+plplAAAAAASAAACgAAAAEAAAAHG7TKB1ORd+l2grQCn1AvOAAAAAiS3t2K+5a2D+bZXPxEA9qJEAYueHRlOtJV3kPCzx77ps6Rp0tyjtq/VyoKmAIQoduZ/YoEzszsmAFSsNO1046oDcGJQurwXwQMqXim4g0Xa8bPOKuq4CHG4h3m8mIqre+XpuK22+e0Bb8wrHOax4e9YJ1GXoxJOeS+nEXqKZevcUAAAA/NFbpe9qfhwT5xK9gkkzvLX5eC8=</EncryptedPassword>
     <_NewBackgroundProfile>False</_NewBackgroundProfile>
   </PropertyGroup>
+=======
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA0DYIxt8Z5ECKx1M+9iyeygAAAAACAAAAAAADZgAAwAAAABAAAABlZugfh7MW4+kIqAW+plplAAAAAASAAACgAAAAEAAAAHG7TKB1ORd+l2grQCn1AvOAAAAAiS3t2K+5a2D+bZXPxEA9qJEAYueHRlOtJV3kPCzx77ps6Rp0tyjtq/VyoKmAIQoduZ/YoEzszsmAFSsNO1046oDcGJQurwXwQMqXim4g0Xa8bPOKuq4CHG4h3m8mIqre+XpuK22+e0Bb8wrHOax4e9YJ1GXoxJOeS+nEXqKZevcUAAAA/NFbpe9qfhwT5xK9gkkzvLX5eC8=</EncryptedPassword>
+    <_NewBackgroundProfile>False</_NewBackgroundProfile>
+  </PropertyGroup>
+>>>>>>> 744737003b437ddbd924bd4a4a0f3885ec50bce9
 </Project>
