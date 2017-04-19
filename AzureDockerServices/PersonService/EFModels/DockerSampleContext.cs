@@ -14,10 +14,7 @@ namespace PersonService.EFModels
             #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
             optionsBuilder.UseSqlServer(@"Server=localhost;Database=DockerSample;User Id=Doc_DbUser;Password=P@ssw0rd");
 
-            //https://docs.microsoft.com/en-us/ef/core/miscellaneous/connection-strings
-            //http://lightswitchhelpwebsite.com/Blog/tabid/61/EntryId/3304/Hello-World-Angular-2-Data-Sample-Using-JavaScriptServices-Net-Core-and-PrimeNg.aspx
-
-            //optionsBuilder.UseSqlServer(@"server=texasjetter.database.windows.net;database=DockerSample;User Id=Doc_dbuser;password=P@ssw0rd");
+      
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
