@@ -7,3 +7,12 @@ C:\TFS\Offline\AzureBootCamp\AzureDockerServices\PersonService\obj\Debug\netcore
 C:\TFS\Offline\AzureBootCamp\AzureDockerServices\PersonService\obj\Debug\netcoreapp1.1\PersonService.AssemblyInfo.cs
 C:\TFS\Offline\AzureBootCamp\AzureDockerServices\PersonService\obj\Debug\netcoreapp1.1\PersonService.dll
 C:\TFS\Offline\AzureBootCamp\AzureDockerServices\PersonService\obj\Debug\netcoreapp1.1\PersonService.pdb
+C:\TFS\AzureBootCamp2017\AzureDockerServices\PersonService\bin\Debug\netcoreapp1.1\PersonService.deps.json
+C:\TFS\AzureBootCamp2017\AzureDockerServices\PersonService\bin\Debug\netcoreapp1.1\PersonService.runtimeconfig.json
+C:\TFS\AzureBootCamp2017\AzureDockerServices\PersonService\bin\Debug\netcoreapp1.1\PersonService.runtimeconfig.dev.json
+C:\TFS\AzureBootCamp2017\AzureDockerServices\PersonService\bin\Debug\netcoreapp1.1\PersonService.dll
+C:\TFS\AzureBootCamp2017\AzureDockerServices\PersonService\bin\Debug\netcoreapp1.1\PersonService.pdb
+C:\TFS\AzureBootCamp2017\AzureDockerServices\PersonService\obj\Debug\netcoreapp1.1\PersonService.csprojResolveAssemblyReference.cache
+C:\TFS\AzureBootCamp2017\AzureDockerServices\PersonService\obj\Debug\netcoreapp1.1\PersonService.AssemblyInfo.cs
+C:\TFS\AzureBootCamp2017\AzureDockerServices\PersonService\obj\Debug\netcoreapp1.1\PersonService.dll
+C:\TFS\AzureBootCamp2017\AzureDockerServices\PersonService\obj\Debug\netcoreapp1.1\PersonService.pdb

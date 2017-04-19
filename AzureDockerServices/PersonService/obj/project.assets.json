@@ -10811,10 +10811,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TFS\\Offline\\AzureBootCamp\\AzureDockerServices\\PersonService\\PersonService.csproj",
+      "projectUniqueName": "C:\\TFS\\AzureBootCamp2017\\AzureDockerServices\\PersonService\\PersonService.csproj",
       "projectName": "PersonService",
-      "projectPath": "C:\\TFS\\Offline\\AzureBootCamp\\AzureDockerServices\\PersonService\\PersonService.csproj",
-      "outputPath": "C:\\TFS\\Offline\\AzureBootCamp\\AzureDockerServices\\PersonService\\obj\\",
+      "projectPath": "C:\\TFS\\AzureBootCamp2017\\AzureDockerServices\\PersonService\\PersonService.csproj",
+      "outputPath": "C:\\TFS\\AzureBootCamp2017\\AzureDockerServices\\PersonService\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
