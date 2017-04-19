@@ -12,8 +12,8 @@ namespace Core.Services.EFModels
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             #warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-            //optionsBuilder.UseSqlServer(@"Server=localhost;Database=DockerSample;User Id=Doc_DbUser;Password=P@ssw0rd");
-            optionsBuilder.UseSqlServer(@"Server=eps-azurebootcamp.database.windows.net;Database=DockerSample;User Id=Doc_DbUser;Password=P@ssw0rd");
+            optionsBuilder.UseSqlServer(@"Server=localhost;Database=DockerSample;User Id=Doc_DbUser;Password=P@ssw0rd");
+            
 
         }
 
