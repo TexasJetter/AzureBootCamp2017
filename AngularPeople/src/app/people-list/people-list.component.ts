@@ -20,12 +20,14 @@ export class PeopleListComponent implements OnInit {
 
   personList: PeopleListItem[] = [];
   errorMessage:string="";
+  loading:boolean= true;
   addPerson():void{
     this.router.navigate(['/person', "00000000-0000-0000-0000-000000000000"]);
   }
 
   deletePerson(personId:string):void{
     this.errorMessage = "";
+    this.loading = true;
     this.personService.deletePerson(personId)
     .subscribe(success=>{
       if(success){
@@ -34,6 +36,7 @@ export class PeopleListComponent implements OnInit {
       }else{
         this.errorMessage = "There was a problem deleting";
       }
+      this.loading = false;
     })
   }
 
@@ -44,7 +47,8 @@ export class PeopleListComponent implements OnInit {
   ngOnInit() {
     this.peopleListService.getPeopleList()
     .subscribe(people=>{
-      this.personList = people
+      this.personList = people;
+      this.loading = false;
     })
   }
 

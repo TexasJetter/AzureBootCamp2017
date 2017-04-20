@@ -22,17 +22,20 @@ export class PersonEditComponent implements OnInit {
   }
   emptyGuid:string = "00000000-0000-0000-0000-000000000000";
   personId: string;
-  person: Person = new Person(this.emptyGuid,"","","","",this.emptyGuid);
+  person: Person = new Person(this.emptyGuid,"","","","",null);
   personTypes:PersonType[]=[];
+  loading:boolean= true;
 
   back(): void {
     this.location.back();
   }
 
   save():void{
+    this.loading=true;
     this.personService.savePerson(this.person)
     .subscribe(personId=>{
       this.person.id=personId
+      this.loading=false;
       this.back();
     })
   }
@@ -43,7 +46,8 @@ export class PersonEditComponent implements OnInit {
     if (this.personId != this.emptyGuid) {
       this.personService.getPerson(this.personId)
         .subscribe(person => {
-          this.person = person
+          this.person = person;
+          this.loading=false;
         });
     }
   }

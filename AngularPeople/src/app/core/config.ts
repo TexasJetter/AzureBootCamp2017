@@ -5,4 +5,4 @@ export const CONFIG = {
   }
 };
 
-export let ENDPOINT = CONFIG.baseUrls.localHost;
+export let ENDPOINT = CONFIG.baseUrls.azure;
